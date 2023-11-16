@@ -1,0 +1,74 @@
+
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #5a10aa;
+    color: #bb0e0e;
+    text-align: center;
+    padding: 1em 0;
+}
+
+section {
+    margin: 2em;
+}
+
+h2 {
+    color: #a50921;
+}
+
+.expedition {
+    border: 1px solid #040448;
+    padding: 1em;
+    margin-bottom: 1em;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+}
+
+label {
+    margin-bottom: 0.5em;
+}
+
+header img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%; 
+}
+
+.dark-mode {
+    background-color: #333;
+    color: #100303;
+}
+
+.dark-mode header {
+    background-color: #120404;
+}
+
+.dark-mode .expedition {
+    background-color: #0d0202;
+    color: #170606;
+}
+
+.dark-mode .achievements {
+    background-color: #190707;
+    color: #190505;
+}
+#explorer-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%; /* Optional: Adds a rounded border to the image */
+    margin-bottom: 1em;
+}
+
+
+
+
+
